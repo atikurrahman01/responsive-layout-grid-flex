@@ -82,8 +82,7 @@ main section start
 }
 
 .player-blog-container {
-    display: flex;
-    align-items: center;
+
     width: 840px;
     background-color: #fff;
     padding: 2%;
@@ -119,6 +118,38 @@ main section start
     width: 20%;
 }
 
+hr {
+
+    border: 1px solid #9F9F9F;
+    margin-top: 5%;
+
+}
+
 /*--------------------------------
  main section blog part
  --------------------------------- */
+.top-blog {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5%;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.blog {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5%;
+
+
+}
+
+.blog img {
+    width: 100%;
+}
+
+span {
+    color: #562EFF;
+    font-weight: bold;
+}
