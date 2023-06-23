@@ -153,3 +153,48 @@ span {
     color: #562EFF;
     font-weight: bold;
 }
+
+/* ------------------------------
+   letest courses section start 
+   -------------------------*/
+.letest-courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5%;
+}
+
+.courses-container {
+    border-radius: 5%;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    padding: 8%;
+}
+
+.courses-container img {
+    width: 100%;
+
+}
+
+.courses-iner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.font-icon .fa-star {
+    color: #FFC014
+}
+
+.font-icon .fn {
+    color: #AEAEAE;
+    font-weight: bold;
+}
+
+.red {
+    color: #A2A2A2
+}
+
+.time-scetion {
+    border-radius: 25%;
+    background-color: rgba(255, 0, 0, 0.205);
+    padding: 1%;
+}
